@@ -13,14 +13,29 @@
 
     <p id="hook">Never use an insecure password again</p>
 
-    <button onclick="generate()">Generate passwords</button>
+    <input type="text" name="length" id="length" onchange="assignValue()" placeholder="Enter the length">
+
+    <button id="generator"onclick="generate()">Generate passwords</button>
 <div id="line"></div>
 
 <div class ="results">
-    <p id="result1">...</p>
-    <p id="result2">...</p>
-    <p id="result3">...</p>
+<div class = "display">
+<p id="result1">...</p>
+    <button class="copy" onclick="copy1()">Copy</button>
+</div>
+   <div class = "display"> 
+   <p id="result2">...</p>
+     <button class="copy" onclick="copy2()">Copy</button>
+     </div> 
+   <div class = "display">
+   <p id="result3">...</p>
+     <button class="copy"  onclick="copy3()">Copy</button>
+     </div>
+    <div class = "display">
     <p id="result4">...</p>
+     <button class="copy" onclick="copy4()">Copy</button>
+     </div>
+    
 </div>
   
 

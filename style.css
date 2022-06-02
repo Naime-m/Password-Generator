@@ -28,7 +28,7 @@ line-height: 28px;
 margin-left: 2em;
 }
 
-button{
+#generator{
     background: url(images/icon.png) no-repeat 10%;
     text-align: left;
     background-color: #10B981;
@@ -37,6 +37,16 @@ button{
     border: none;
     padding: 1em 3em;
     border-radius: 7px;
+}
+
+input{
+    background-color: #10B981;
+    color: white;
+    margin: 1em 3em;
+    border: none;
+    padding: 1em 3em;
+    border-radius: 7px;
+
 }
  #line{
     border: 1px solid #2F3E53;
@@ -52,10 +62,25 @@ div p {
     background: #273549;
     text-align: center;
     height: 25%;
-    width: 25%;
     margin: 3em 5em 1em 2.5em;
     padding: 1em;
     color: #10B981;
     font-weight: bold;
     border-radius: 7px;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+
+    
+}
+
+.copy{
+    background-color: #10B981;
+    margin: 1em;
+    border: none;
+    text-align: center;
+    color: white;
 }
