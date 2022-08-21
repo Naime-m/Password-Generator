@@ -1,4 +1,4 @@
-# password-generator-js
+# Password Generator
 
 Password generator made in Javascript 
 
